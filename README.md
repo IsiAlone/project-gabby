@@ -57,5 +57,8 @@ Para ello hemos necesitado crear un DataSet en el proyecto y saber el nombre del
 
 ### Visualización en Data Studio
 
-De cara a su posible explotación y análisis de los datos hemos creado un Dashboard con **Data Studio**. El enlace del DashBoard es el siguiente https://datastudio.google.com/reporting/d525e562-f000-48fc-bdde-570be5ee5a95 (para acceder a él se solicita pedir acceso), sin embargo, en la carpeta ` docs/Dashboard_videojuegos.pdf` disponemos del mismo en formato PDF.
+Para su posible explotación y análisis de los datos hemos creado un Dashboard con **Data Studio**. El enlace del DashBoard es el siguiente https://datastudio.google.com/reporting/d525e562-f000-48fc-bdde-570be5ee5a95 (para acceder a él se solicita pedir acceso), sin embargo, en la carpeta ` docs/Dashboard_videojuegos.pdf` disponemos del mismo en formato PDF.
 
+## Siguientes pasos
+
+De cara a seguir trabajando con los datos se van a realizar una serie de funciones con las que obtener los valores más significativos del DataSet y posibles transformaciones que añadan información esencial para el estudio futuro de los datos. La idea es ejecutar dichas funciones en Cloud Functions, y ver si tiene sentido disponer de un evento que cada vez que se actualicen los datos en el bucket se lance la función específica.
